@@ -2,7 +2,7 @@
 // @name         动态阅读模式
 // @namespace    http://tampermonkey.net/
 // @version      2.1.0
-// @description  基于人脸距离检测的智能阅读助手 - 完整版，包含动态字体、对比度调整和Kindle风格阅读体验
+// @description  Intelligent reading assistant based on face distance detection Full version, including dynamic fonts, contrast adjustments, and a Kindle-style reading experience
 // @author       Reading Mode Team
 // @match        *://*/*
 // @grant        none
@@ -15,7 +15,7 @@
 (function () {
   "use strict";
 
-  // ===== MediaPipe距离检测器 =====
+  // =====  =====
   class MediaPipeDistanceDetector {
     constructor(config = {}) {
       this.config = {
